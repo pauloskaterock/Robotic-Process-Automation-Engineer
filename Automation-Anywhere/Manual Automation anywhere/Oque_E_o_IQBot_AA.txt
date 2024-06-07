@@ -1,0 +1,62 @@
+O que é o IQ Bot do Automation Anywhere
+IQ Bot é um componente avançado do Automation Anywhere que utiliza inteligência artificial (IA) e aprendizado de máquina (ML) para automatizar processos complexos de extração e processamento de dados não estruturados e semiestruturados. Diferente dos bots tradicionais que seguem regras pré-definidas, o IQ Bot é projetado para aprender e melhorar com o tempo, permitindo a automação de tarefas que envolvem documentos como faturas, recibos, formulários, e-mails, e muito mais.
+
+Características Principais do IQ Bot
+Processamento de Documentos Não Estruturados:
+
+Entrada: Documentos como PDFs, imagens, e-mails, etc.
+Saída: Dados estruturados que podem ser utilizados em sistemas RPA ou outros sistemas de TI.
+Tecnologias Utilizadas: OCR (Reconhecimento Óptico de Caracteres), NLP (Processamento de Linguagem Natural), e algoritmos de ML.
+Aprendizado Contínuo:
+
+O IQ Bot aprende com cada interação, melhorando sua precisão e capacidade de reconhecer padrões ao longo do tempo.
+Integração com RPA:
+
+O IQ Bot pode ser integrado com outros bots do Automation Anywhere, permitindo a criação de fluxos de trabalho automatizados completos.
+Funcionamento do IQ Bot
+Criação de Modelos:
+
+Treinamento: O usuário treina o IQ Bot com um conjunto de documentos representativos. O bot aprende a identificar e extrair dados relevantes.
+Validação: Após o treinamento, o modelo é validado com um novo conjunto de documentos para garantir a precisão.
+Extração de Dados:
+
+Documentos de Entrada: O IQ Bot processa novos documentos baseados no modelo treinado.
+Reconhecimento de Dados: Utilizando OCR e ML, ele extrai dados relevantes.
+Validação Manual: Os dados extraídos podem ser validados manualmente, se necessário, para garantir a precisão.
+Exportação de Dados:
+
+Os dados extraídos são exportados para sistemas downstream, como ERPs, CRMs, bancos de dados, ou diretamente para bots de RPA para posterior processamento.
+Exemplo Prático
+Cenário: Processamento de Faturas
+Objetivo: Automatizar a extração de dados de faturas para entrada em um sistema ERP.
+
+Passos:
+
+Treinamento do IQ Bot:
+
+Reúna um conjunto de faturas de diferentes fornecedores.
+Use essas faturas para treinar o IQ Bot, destacando campos importantes como número da fatura, data, valor total, e detalhes do fornecedor.
+Validação do Modelo:
+
+Teste o modelo treinado com um novo conjunto de faturas para garantir que o bot está extraindo os dados corretamente.
+Automatização do Processo:
+
+Configure um bot de RPA para capturar as faturas recebidas via e-mail e encaminhá-las ao IQ Bot.
+O IQ Bot processa as faturas, extrai os dados e os exporta para o sistema ERP.
+Validação Manual (se necessário):
+
+Um operador humano valida os dados extraídos em casos de baixa confiança.
+Entrada Automatizada no ERP:
+
+Um bot de RPA insere os dados validados no ERP, concluindo o processo de forma automatizada.
+Benefícios do IQ Bot
+Redução de Erros: A automação reduz significativamente os erros humanos associados ao processamento manual de documentos.
+Aumento da Eficiência: Processos que antes levavam horas podem ser concluídos em minutos.
+Escalabilidade: O IQ Bot pode processar grandes volumes de documentos com alta precisão.
+Flexibilidade: Capaz de lidar com diferentes tipos de documentos e adaptar-se a novos formatos ao longo do tempo.
+Considerações Finais
+O IQ Bot é uma ferramenta poderosa para organizações que lidam com grandes volumes de documentos não estruturados. Sua capacidade de aprendizado contínuo e integração com a plataforma Automation Anywhere torna-o ideal para automatizar processos complexos e melhorar a eficiência operacional.
+
+Para mais informações e tutoriais detalhados, consulte a documentação oficial do Automation Anywhere IQ Bot.
+
+https://docs.automationanywhere.com/pt-BR/bundle/iq-bot-v6.5/page/iq-bot/topics/iq-bot/user/overview.html

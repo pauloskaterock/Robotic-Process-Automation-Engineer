@@ -1,0 +1,102 @@
+No Automation Anywhere, várias ações são utilizadas para criar bots que automatizam tarefas repetitivas. Aqui estão as principais ações, explicadas de forma detalhada:
+
+1. Send Email
+Descrição: Envia emails utilizando servidores SMTP. É útil para notificações, relatórios e comunicações automatizadas.
+Parâmetros:
+SMTP Server: Endereço do servidor SMTP.
+Port: Porta de conexão (normalmente 25 ou 587).
+Username/Password: Credenciais de login.
+From/To: Endereços de email do remetente e destinatário.
+Subject: Assunto do email.
+Body: Corpo do email.
+Attachments: Arquivos a serem anexados.
+Exemplo: Enviar um relatório diário por email após a execução de um bot.
+
+
+----------------------------------------------------------------------------------
+2. Excel Basic
+Descrição: Manipula planilhas Excel para leitura e escrita de dados.
+Sub-ações:
+Open Workbook: Abre uma planilha existente.
+Close Workbook: Fecha a planilha aberta.
+Set Cell: Escreve dados em uma célula específica.
+Get Cell: Lê dados de uma célula específica.
+Save Workbook: Salva as alterações feitas na planilha.
+Exemplo: Automatizar a entrada de dados em uma planilha de inventário.
+
+----------------------------------------------------------------------------------
+3. File & Folder Operations
+Descrição: Realiza operações em arquivos e pastas, como copiar, mover, deletar, e criar.
+Sub-ações:
+Create Folder: Cria uma nova pasta.
+Delete File: Deleta um arquivo específico.
+Move File: Move um arquivo de um local para outro.
+Copy Folder: Copia uma pasta inteira.
+Exemplo: Organizar arquivos em pastas baseadas na data de criação.
+
+--------------------------------------------------------------------------------
+4. Database Commands
+Descrição: Interage com bancos de dados para executar consultas SQL.
+Parâmetros:
+Connection String: Detalhes de conexão com o banco de dados.
+SQL Query: Comando SQL a ser executado.
+Sub-ações:
+Run Query: Executa uma consulta e retorna os resultados.
+Insert Record: Insere um novo registro no banco de dados.
+Update Record: Atualiza registros existentes.
+Exemplo: Atualizar registros de clientes em um banco de dados após uma campanha de marketing.
+
+--------------------------------------------------------------------------------
+5. Web Recorder
+Descrição: Automatiza interações com navegadores web, como clicar em botões, preencher formulários e extrair dados.
+Sub-ações:
+Open Browser: Abre uma nova janela do navegador.
+Navigate to URL: Navega para uma URL específica.
+Click Element: Clica em um elemento da página.
+Extract Data: Extrai dados de elementos da página.
+Exemplo: Preencher formulários online de forma automatizada para inscrição em eventos.
+
+--------------------------------------------------------------------------------------
+6. Loop
+Descrição: Permite repetir um conjunto de ações várias vezes, baseado em condições ou contadores.
+Tipos de Loop:
+Loop N Times: Repete as ações um número específico de vezes.
+Loop Condition: Repete as ações enquanto uma condição for verdadeira.
+Loop through List: Itera através de uma lista de itens.
+Exemplo: Processar todos os arquivos em uma pasta aplicando uma ação a cada um.
+
+-------------------------------------------------------------------------------------
+7. IF/ELSE
+Descrição: Condicional que executa diferentes ações baseado em uma condição.
+Parâmetros:
+Condition: A condição a ser avaliada (verdadeira ou falsa).
+Estrutura:
+IF Block: Ações a serem executadas se a condição for verdadeira.
+ELSE Block: Ações a serem executadas se a condição for falsa.
+Exemplo: Verificar se um arquivo existe e processá-lo, ou criar um novo arquivo se não existir.
+
+------------------------------------------------------------------------------------
+8. Error Handling
+Descrição: Define como o bot deve reagir a erros.
+Parâmetros:
+Try Block: Ações a serem tentadas.
+Catch Block: Ações a serem executadas se ocorrer um erro.
+Finally Block: Ações a serem executadas independentemente do sucesso ou falha.
+Exemplo: Tentar abrir um arquivo, capturar e registrar erros caso o arquivo não exista, e fechar recursos no final.
+
+-------------------------------------------------------------------------------------
+9. Wait
+Descrição: Introduz uma pausa na execução do bot para aguardar que uma condição seja satisfeita.
+Parâmetros:
+Time Interval: Tempo a aguardar (em segundos).
+Condition: Condição a ser satisfeita para continuar.
+Exemplo: Aguardar que um elemento apareça em uma página web antes de interagir com ele.
+
+
+---------------------------------------------------------------------------------------
+10. Log To File
+Descrição: Registra mensagens ou dados em um arquivo de log.
+Parâmetros:
+File Path: Caminho do arquivo de log.
+Message: Mensagem a ser registrada.
+Exemplo: Registrar cada etapa de um processo para auditoria e debugging.

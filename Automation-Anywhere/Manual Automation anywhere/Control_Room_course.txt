@@ -1,0 +1,223 @@
+Módulo 1: Introdução à Control Room
+Objetivo: Familiarizar-se com a interface e os componentes principais da Control Room.
+
+Conteúdo:
+
+Visão Geral da Control Room:
+
+Definição e Função:
+A Control Room é o núcleo de comando do Automation Anywhere, onde você pode gerenciar bots, dispositivos, usuários e tarefas. Ela oferece uma interface centralizada para monitoramento e controle das operações de automação.
+Principais Funcionalidades e Benefícios:
+Gerenciamento centralizado de bots e dispositivos.
+Monitoramento em tempo real do status dos bots.
+Relatórios e análises detalhadas.
+Gestão de usuários e permissões.
+Navegação na Interface:
+
+Painel de Controle:
+O painel de controle fornece uma visão geral das atividades dos bots, incluindo execução de tarefas, status dos dispositivos e alertas.
+Menu Principal:
+A barra lateral esquerda contém o menu principal com as seguintes seções:
+Bots: Onde você gerencia seus bots.
+Workload: Para gerenciamento de filas de trabalho e distribuição de carga.
+Analytics: Para visualização de relatórios e painéis de análise.
+Devices: Para adicionar, configurar e monitorar dispositivos.
+Audit: Para visualizar logs de auditoria e atividades.
+Prática:
+
+Realizar login na Control Room:
+Acesse a URL da Control Room no seu navegador.
+Insira suas credenciais de login (usuário e senha) e clique em "Login".
+Explorar o Painel de Controle:
+Navegue pelo painel de controle e identifique os principais widgets e informações disponíveis.
+Explore as seções do menu principal para entender a estrutura da interface.
+Módulo 2: Gerenciamento de Usuários e Acessos
+Objetivo: Aprender a gerenciar usuários, permissões e roles na Control Room.
+
+Conteúdo:
+
+Criação de Usuários:
+
+Como adicionar novos usuários:
+Vá para a seção Users no menu principal.
+Clique em Add User.
+Preencha as informações do usuário (nome, e-mail, senha) e clique em Save.
+Definição de permissões e roles:
+Após criar o usuário, você pode atribuir roles específicas que definem as permissões do usuário.
+Gestão de Roles:
+
+Criação e atribuição de roles:
+Vá para a seção Roles no menu principal.
+Clique em Add Role.
+Defina o nome da role e as permissões associadas.
+Atribua a role a um ou mais usuários.
+Configuração de permissões específicas:
+As permissões podem ser detalhadas, incluindo acesso a bots específicos, criação de bots, visualização de relatórios, etc.
+Prática:
+
+Adicionar um novo usuário:
+Acesse a seção Users.
+Clique em Add User e preencha os dados do novo usuário.
+Criar uma role personalizada e atribuir permissões específicas:
+Acesse a seção Roles.
+Clique em Add Role e defina as permissões desejadas.
+Atribua a nova role ao usuário criado.
+Módulo 3: Gerenciamento de Bots
+Objetivo: Compreender como criar, gerenciar e monitorar bots na Control Room.
+
+Conteúdo:
+
+Criação e Importação de Bots:
+
+Upload de scripts de bots:
+Vá para a seção Bots.
+Clique em Upload Bot e selecione o arquivo do bot no seu computador.
+Criação de bots diretamente na Control Room:
+Use o bot editor integrado para criar novos bots.
+Organização de Bots:
+
+Uso de pastas e tags para organizar bots:
+Crie pastas na seção Bots para categorizar seus bots.
+Use tags para facilitar a busca e a organização.
+Atribuição de bots a dispositivos:
+Após criar ou importar um bot, você pode designá-lo a dispositivos específicos para execução.
+Monitoramento de Bots:
+
+Visualização do status dos bots:
+No painel de controle, você pode ver o status dos bots em execução, em espera, ou falhados.
+Logs de execução e histórico:
+Cada bot possui um log detalhado de execução que pode ser acessado para troubleshooting.
+Prática:
+
+Upload de um script de bot:
+Acesse a seção Bots.
+Clique em Upload Bot e selecione um arquivo .atmx.
+Organizar bots em pastas e usar tags:
+Crie uma nova pasta e mova bots para ela.
+Adicione tags aos bots para facilitar a organização.
+Atribuir um bot a um dispositivo específico:
+Selecione um bot e use a opção de atribuição para designá-lo a um dispositivo específico.
+Verificar o status e os logs de execução do bot:
+Execute o bot e monitore seu status no painel de controle.
+Acesse os logs para revisar a execução.
+Módulo 4: Configuração e Gerenciamento de Dispositivos
+Objetivo: Configurar e gerenciar dispositivos (runtimes) que executam os bots.
+
+Conteúdo:
+
+Adição de Dispositivos:
+
+Como adicionar novos dispositivos:
+Vá para a seção Devices.
+Clique em Add Device e siga as instruções para registrar um novo dispositivo.
+Configuração e manutenção de dispositivos:
+Configure as propriedades do dispositivo e mantenha-o atualizado.
+Atribuição de Bots a Dispositivos:
+
+Mapeamento de bots para dispositivos específicos:
+Na seção Bots, selecione um bot e escolha o dispositivo no qual ele será executado.
+Execução de bots em dispositivos designados:
+Inicie a execução de bots nos dispositivos atribuídos e monitore a performance.
+Prática:
+
+Adicionar um novo dispositivo à Control Room:
+Acesse a seção Devices.
+Clique em Add Device e siga as instruções.
+Configurar o dispositivo para executar bots:
+Configure as propriedades do dispositivo, como nome e tipo.
+Atribuir um bot ao dispositivo adicionado e executar:
+Na seção Bots, selecione um bot e atribua ao dispositivo.
+Execute o bot e verifique a execução no dispositivo.
+Módulo 5: Workload Management
+Objetivo: Gerenciar filas de trabalho e distribuição de carga entre os bots.
+
+Conteúdo:
+
+Criação de Filas de Trabalho:
+
+Definir e configurar filas de trabalho:
+Vá para a seção Workload.
+Clique em Create Queue e defina os parâmetros da fila (nome, tipo, etc).
+Adicionar e remover itens de fila:
+Adicione manualmente ou programaticamente itens à fila.
+Distribuição de Trabalho:
+
+Configuração de regras de distribuição de carga:
+Defina regras para distribuição de itens da fila entre bots disponíveis.
+Monitoramento de filas e distribuição:
+Monitore o status das filas e ajuste conforme necessário.
+Prática:
+
+Criar uma nova fila de trabalho:
+Acesse a seção Workload.
+Clique em Create Queue e configure a nova fila.
+Adicionar itens à fila:
+Adicione itens manualmente ou através de um bot.
+Configurar regras de distribuição e monitorar a fila:
+Defina as regras de distribuição e monitore a execução.
+Módulo 6: Análises e Relatórios
+Objetivo: Utilizar ferramentas de análise e relatórios para monitorar a performance dos bots.
+
+Conteúdo:
+
+Painéis de Análise:
+
+Criação e personalização de painéis:
+Vá para a seção Analytics.
+Crie novos painéis e adicione widgets para visualizar métricas chave.
+Visualização de métricas chave:
+Adicione gráficos e tabelas que mostrem o desempenho dos bots, tempos de execução, etc.
+Geração de Relatórios:
+
+Configuração de relatórios automatizados:
+Configure relatórios para serem gerados e enviados automaticamente.
+Exportação e compartilhamento de relatórios:
+Exporte relatórios em formatos como PDF, Excel e compartilhe com stakeholders.
+Prática:
+
+Criar um painel de análise personalizado:
+Acesse a seção Analytics.
+Crie um novo painel e adicione widgets relevantes.
+Configurar um relatório automatizado e exportar os dados:
+Configure um relatório automatizado para gerar e enviar por e-mail.
+Exporte o relatório e compartilhe-o.
+Módulo 7: Auditoria e Segurança
+Objetivo: Implementar práticas de segurança e auditoria na Control Room.
+
+Conteúdo:
+
+Auditoria de Atividades:
+
+Visualização de logs de auditoria:
+Acesse a seção Audit para ver logs detalhados de atividades.
+Monitoramento de atividades de usuários e bots:
+Monitore ações executadas por usuários e bots.
+Segurança:
+
+Configuração de políticas de segurança:
+Defina políticas de senha, tempo de sessão, etc.
+Implementação de autenticação de dois fatores (2FA):
+Configure 2FA para aumentar a segurança de login.
+Prática:
+
+Visualizar e interpretar logs de auditoria:
+Acesse a seção Audit.
+Revise os logs de atividades recentes.
+Configurar políticas de segurança e 2FA:
+Defina políticas de segurança nas configurações da Control Room.
+Habilite e configure 2FA para usuários.
+Conclusão do Curso
+Revisão e Prática Final:
+
+Revisão dos principais tópicos abordados no curso:
+Revise as seções de usuários, bots, dispositivos, workloads, análises, auditoria e segurança.
+Prática final com um projeto integrador:
+Crie um bot completo que execute uma tarefa automatizada.
+Configure um dispositivo para executar o bot.
+Gerencie a carga de trabalho com filas.
+Monitore a performance com painéis de análise.
+Aplique políticas de segurança e registre logs de auditoria.
+Recursos Adicionais
+Documentação e Tutoriais:
+
+Acesse a documentação oficial do Automation Anywhere.
