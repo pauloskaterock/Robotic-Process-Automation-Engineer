@@ -1,0 +1,74 @@
+Tutorial Prático: Analisando Logs de Execução de Bots no Automation Anywhere
+Analisar os logs de execução dos bots é crucial para identificar comportamentos anômalos ou problemas recorrentes. Vamos detalhar passo a passo como fazer isso no Automation Anywhere Control Room.
+
+Passo 1: Acesse o Control Room
+Login: Faça login na Control Room do Automation Anywhere com suas credenciais.
+Dashboard: Navegue até o Dashboard principal onde você pode visualizar um resumo da atividade recente dos bots.
+Passo 2: Navegue para a Seção de Logs
+Menu Principal: No painel de navegação, selecione Activity (Atividade).
+Logs: Clique em Logs para acessar todos os logs de execução disponíveis.
+Passo 3: Filtros e Pesquisa
+Filtrar por Data e Hora:
+
+Utilize os filtros de data e hora para restringir os logs ao período de tempo específico que você deseja analisar.
+Você pode escolher um intervalo de datas específico para focar em um período onde os problemas foram reportados.
+Filtrar por Bot ou Usuário:
+
+Se você está interessado em logs de um bot específico, use o filtro Bot Name para selecionar o bot.
+Caso queira ver logs gerados por um usuário específico, use o filtro Username.
+Status dos Bots:
+
+Utilize o filtro Status para visualizar logs baseados no estado dos bots, como Success, Failure, ou In Progress.
+Passo 4: Análise de Logs
+Visualização dos Logs:
+
+Os logs exibem uma lista de todas as execuções dos bots, incluindo informações como data, hora, bot nome, usuário, e status.
+Clique em uma execução específica para ver os detalhes completos do log.
+Detalhes do Log:
+
+Dentro do log detalhado, você encontrará informações como:
+Steps Executed: Lista detalhada das etapas executadas pelo bot.
+Error Messages: Mensagens de erro detalhadas, se a execução falhou.
+Execution Time: Tempo total de execução de cada etapa.
+Identificação de Anomalias:
+
+Erros Repetidos: Procure por mensagens de erro recorrentes para identificar problemas persistentes.
+Tempos de Execução Anômalos: Tempos de execução que são significativamente mais longos ou curtos do que o esperado podem indicar problemas.
+Falhas Específicas: Identifique se as falhas ocorrem em um passo específico do bot, sugerindo um ponto crítico no processo.
+Passo 5: Documentação e Ação
+Registro de Problemas:
+
+Documente os problemas encontrados com detalhes suficientes para referência futura.
+Inclua informações como o nome do bot, a descrição do problema, e o trecho específico do log que mostra o erro.
+Correção de Erros:
+
+Com base nos logs, investigue o código do bot para encontrar e corrigir a causa raiz dos problemas.
+Teste o bot após fazer correções para garantir que os problemas foram resolvidos.
+Feedback e Comunicação:
+
+Comunique os problemas e suas resoluções com a equipe de desenvolvimento e stakeholders.
+Utilize ferramentas de gerenciamento de projetos como Jira para registrar problemas e acompanhar o progresso das correções.
+Exemplo Prático
+Cenário: Bot de Processamento de Faturas Falhando
+Filtro de Logs:
+
+Aplique um filtro para o bot de processamento de faturas.
+Selecione um intervalo de datas onde o problema foi reportado.
+Análise do Log:
+
+Encontre execuções com status Failure.
+Verifique as mensagens de erro, como “Falha ao acessar a base de dados” ou “Erro de conexão com o servidor”.
+Identificação do Problema:
+
+Descubra que as falhas ocorrem consistentemente na etapa de conexão com o banco de dados.
+Note um aumento significativo no tempo de execução antes das falhas.
+Documentação:
+
+Registre o problema com detalhes, incluindo a mensagem de erro específica e o tempo de execução.
+Anexe trechos dos logs que mostram o erro para referência.
+Correção e Teste:
+
+Ajuste o código do bot para tratar a conexão com o banco de dados de forma mais robusta.
+Teste o bot em um ambiente de desenvolvimento antes de implantá-lo novamente em produção.
+Conclusão
+Analisar logs de execução de bots no Automation Anywhere Control Room é um processo essencial para manter a eficiência e confiabilidade dos seus processos automatizados. Com uma abordagem sistemática, você pode identificar rapidamente problemas recorrentes, corrigir anomalias, e garantir que os bots funcionem conforme esperado.

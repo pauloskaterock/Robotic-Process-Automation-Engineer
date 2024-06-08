@@ -1,0 +1,41 @@
+Primeiro Dia Trabalhando com Sustentação de RPA na Automation Anywhere
+1. Introdução à Empresa e à Equipe
+Boas-Vindas e Orientação:
+HR e Onboarding: Receba as boas-vindas do departamento de Recursos Humanos (RH). Eles fornecerão informações sobre a cultura da empresa, políticas e procedimentos.
+Apresentação à Equipe: Conheça sua equipe de RPA e seu gestor. Será útil entender quem são seus colegas de trabalho e quais são suas responsabilidades.
+2. Configuração do Ambiente de Trabalho
+Acesso às Ferramentas:
+Computador e Software: Configure seu computador e instale o Automation Anywhere, se necessário. Garanta que você tenha acesso à Control Room e a todas as ferramentas e plataformas necessárias.
+Contas de Usuário: Receba credenciais de login para todos os sistemas relevantes, incluindo e-mail corporativo, Slack, Jira, ou outras ferramentas de comunicação e gerenciamento de projetos.
+3. Treinamento Inicial
+Documentação e Recursos:
+Leitura de Documentação: Leia a documentação da empresa sobre os processos de RPA existentes. Isso pode incluir manuais de usuários, diagramas de fluxo de processos, e guias de desenvolvimento.
+Tutoriais e Cursos: Se disponível, participe de treinamentos específicos sobre a plataforma Automation Anywhere. Utilize recursos como a Automation Anywhere University.
+4. Revisão dos Bots Existentes
+Inventário de Bots:
+Lista de Bots: Obtenha uma lista dos bots atualmente em produção e os que estão em desenvolvimento ou testes. Entenda suas funções, a frequência de execução e os KPIs associados.
+Repositório de Bots: Navegue pelo repositório de bots na Control Room para se familiarizar com a estrutura e o código existente.
+5. Conhecimento das Estruturas de Suporte
+Processos de Suporte:
+Protocolos de Suporte: Aprenda sobre os procedimentos para lidar com problemas de bots. Isso pode incluir escalonamento de problemas, documentação de erros, e comunicação com outras equipes.
+Ferramentas de Monitoramento: Familiarize-se com as ferramentas de monitoramento usadas para acompanhar o desempenho dos bots, como o Dashboard e Bot Insight na Control Room.
+6. Primeiras Tarefas Práticas
+Revisão de Bots em Produção:
+Análise de Logs: Analise os logs de execução dos bots para identificar qualquer comportamento anômalo ou problemas recorrentes.
+Execução de Testes: Execute alguns bots em um ambiente de teste para entender seu funcionamento e possíveis pontos de falha.
+Correções Simples:
+Resolução de Erros Menores: Trabalhe em pequenos problemas ou ajustes que foram identificados, como correções de bugs ou atualizações menores de lógica.
+7. Reuniões e Feedback
+Reuniões de Equipe:
+Daily Standup: Participe de reuniões diárias ou semanais com a equipe para discutir o progresso, desafios e próximas tarefas.
+One-on-One com o Gestor: Tenha uma reunião individual com seu gestor para discutir suas primeiras impressões, tirar dúvidas e alinhar expectativas.
+8. Documentação e Relatórios
+Registro de Atividades:
+Documentação de Processos: Mantenha um registro detalhado das atividades realizadas, problemas encontrados e soluções aplicadas.
+Relatórios de Status: Prepare um relatório de status para seu gestor no final do dia, destacando as principais atividades, achados e próximos passos.
+Dicas para um Primeiro Dia Bem-Sucedido
+Seja Proativo: Faça perguntas e busque entender não apenas os aspectos técnicos, mas também o impacto de seus bots nos processos de negócios.
+Construa Relacionamentos: Aproveite para conhecer seus colegas e entender como vocês podem colaborar de forma eficaz.
+Organização: Mantenha anotações organizadas sobre os processos, ferramentas e contatos importantes.
+Feedback: Solicite feedback regularmente para garantir que você está no caminho certo e atendendo às expectativas da equipe e da empresa.
+Com essas orientações, você estará bem preparado para começar com sucesso sua nova função como desenvolvedor de RPA na Automation Anywhere. Boa sorte!

@@ -1,0 +1,76 @@
+Vou te guiar em um tutorial prático para executar bots no Automation Anywhere, explicando como configurar um ambiente de teste, executar os bots e identificar possíveis pontos de falha.
+
+Passo 1: Configurar o Ambiente de Teste
+Instalação do Automation Anywhere:
+
+Se você ainda não tem o Automation Anywhere instalado, baixe e instale a versão Community Edition ou a versão empresarial, dependendo da sua licença.
+Siga as instruções de instalação fornecidas pelo site da Automation Anywhere.
+Criar uma Conta e Fazer Login:
+
+Após a instalação, crie uma conta se você ainda não tiver uma.
+Faça login na plataforma.
+Configurar um Ambiente de Teste:
+
+Dentro do Control Room, configure um ambiente de teste dedicando uma máquina ou um conjunto de máquinas virtuais (VMs) para testes de bots.
+Instale o Automation Anywhere Bot Agent nas máquinas de teste.
+Passo 2: Criar e Testar um Bot Simples
+Criar um Novo Bot:
+
+Vá para o Control Room e clique em Bots no menu principal.
+Clique em Create a bot.
+Dê um nome ao bot e clique em Create.
+Desenvolver o Bot:
+
+Use o AAE Client ou a interface web para desenvolver o bot.
+Arraste e solte comandos na área de trabalho do bot. Por exemplo, crie um bot que abre o navegador e navega até um site específico:
+Use o comando Open Browser.
+Especifique a URL desejada.
+Adicione outros comandos conforme necessário, como Click, Type Text, etc.
+Salvar o Bot:
+
+Após desenvolver o bot, clique em Save para salvar suas alterações.
+Passo 3: Executar o Bot no Ambiente de Teste
+Distribuir o Bot:
+
+No Control Room, selecione o bot criado.
+Clique em Deploy e escolha a máquina de teste onde o bot será executado.
+Executar o Bot:
+
+Na máquina de teste, abra o Automation Anywhere Bot Agent.
+O bot implantado aparecerá na lista de bots disponíveis.
+Clique em Run para executar o bot.
+Monitorar a Execução:
+
+No Control Room, você pode monitorar a execução do bot em tempo real.
+Verifique os logs e a saída do bot para entender como ele está se comportando.
+Passo 4: Identificar Pontos de Falha
+Logs de Execução:
+
+Após a execução do bot, verifique os logs gerados.
+Os logs mostrarão onde o bot pode ter encontrado problemas, como falhas em comandos específicos, erros de tempo de execução ou exceções.
+Análise de Erros:
+
+Identifique se os erros são devido a dados incorretos, problemas de conectividade, falhas de elementos na interface, etc.
+Tente replicar os erros manualmente para entender melhor as causas.
+Depuração e Ajustes:
+
+Use as ferramentas de depuração do Automation Anywhere para executar o bot passo a passo.
+Adicione comandos de Try/Catch para capturar exceções e tratar erros adequadamente.
+Modifique o bot conforme necessário para corrigir os problemas identificados.
+Dicas Adicionais
+Uso de Variáveis:
+
+Utilize variáveis para gerenciar dados dinamicamente durante a execução do bot.
+Estrutura de Fluxo de Controle:
+
+Utilize estruturas como If/Else, Loops, e Switch para criar bots mais robustos e adaptáveis.
+Documentação:
+
+Documente cada etapa do seu bot para facilitar a manutenção e a identificação de problemas no futuro.
+Conclusão
+Seguindo estes passos, você será capaz de configurar um ambiente de teste, criar e executar bots no Automation Anywhere, e identificar pontos de falha para melhorar a robustez dos seus bots. Boa sorte com a automação!
+
+
+
+
+
