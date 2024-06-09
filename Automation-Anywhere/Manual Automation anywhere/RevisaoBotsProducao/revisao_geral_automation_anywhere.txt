@@ -1,0 +1,57 @@
+
+Módulo 1: Visão Geral do Automation Anywhere
+1.1 Introdução à Plataforma de RPA
+Objetivo: Compreender o conceito de RPA e a importância do Automation Anywhere no cenário de automação empresarial.
+
+Conteúdo:
+
+O que é RPA?
+
+RPA é a tecnologia que permite a automação de tarefas repetitivas e baseadas em regras através de bots de software.
+Exemplos de uso: processamento de faturas, atendimento ao cliente, gestão de dados.
+Por que Automation Anywhere?
+
+Plataforma líder em RPA, conhecida por sua facilidade de uso, escalabilidade e recursos avançados.
+Suporta automação de processos complexos com inteligência artificial e aprendizado de máquina.
+Atividade Prática:
+
+Pesquise e liste três benefícios do uso de RPA em uma organização.
+1.2 Componentes Principais do Automation Anywhere
+Objetivo: Conhecer os componentes principais do Automation Anywhere: Control Room, Bot Creator e Bot Runner.
+
+Conteúdo:
+
+Control Room
+Função: O Control Room é o cérebro da operação de RPA. É a interface web usada para gerenciar todos os bots, recursos, usuários e configurações de segurança.
+
+Principais Funções:
+Implantar e agendar bots.
+
+Gerenciar credenciais e segurança.
+Monitorar e gerar relatórios de desempenho dos bots.
+
+Exemplo Prático:
+Logar no Control Room e explorar as abas principais: Dashboard, Bots, Devices, Audit Log, etc.
+
+Bot Creator
+Função: Bot Creator é a ferramenta usada para desenvolver e testar bots. Possui uma interface drag-and-drop que facilita a criação de bots.
+
+Principais Funções:
+Criar novos bots usando comandos pré-definidos.
+Testar e depurar bots.
+
+Utilizar variáveis e funções para criar lógica complexa.
+Exemplo Prático:
+
+Criar um bot simples que abre um navegador e navega até um site específico.
+
+Bot Runner
+Função: Bot Runner é o componente usado para executar bots desenvolvidos. Pode ser instalado em máquinas físicas ou virtuais.
+
+Principais Funções:
+
+Executar bots agendados ou sob demanda.
+Reportar status de execução ao Control Room.
+
+Exemplo Prático:
+Executar um bot previamente criado e monitorar sua execução através do Control Room.

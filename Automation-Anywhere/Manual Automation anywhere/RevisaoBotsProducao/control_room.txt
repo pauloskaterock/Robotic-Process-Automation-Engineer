@@ -1,0 +1,39 @@
+Módulo 1: Control Room
+1.1 Visão Geral do Control Room
+Objetivo: Compreender a função do Control Room e suas principais funcionalidades.
+
+Conteúdo:
+
+Função do Control Room: O Control Room é a interface central de gerenciamento do Automation Anywhere, onde você pode gerenciar bots, usuários, dispositivos, e configurações de segurança.
+Principais Funcionalidades:
+Dashboard: Visão geral do status e desempenho dos bots.
+Bots: Gerenciamento de bots (criação, edição, implantação, e exclusão).
+Devices: Gerenciamento de máquinas onde os bots serão executados.
+Audit Log: Registro de todas as atividades e mudanças no sistema.
+Credentials: Gerenciamento de credenciais seguras para bots.
+Atividade Prática:
+
+Logar no Control Room:
+Acesse a URL do Control Room no seu navegador.
+Faça login com suas credenciais.
+Explorar o Dashboard:
+Navegue pelas diferentes seções do Dashboard para familiarizar-se com a interface.
+1.2 Gerenciamento de Bots no Control Room
+Objetivo: Aprender a criar, implantar e monitorar bots no Control Room.
+
+Passos Práticos:
+
+Criar um Bot:
+
+No Control Room, vá para a aba Bots.
+Clique em Create a bot.
+Dê um nome ao bot e clique em Create.
+Implantar um Bot:
+
+Selecione o bot criado.
+Clique em Deploy.
+Escolha a máquina onde o bot será executado.
+Monitorar a Execução do Bot:
+
+No Control Room, vá até a aba Activity.
+Monitore o progresso e o status do bot.

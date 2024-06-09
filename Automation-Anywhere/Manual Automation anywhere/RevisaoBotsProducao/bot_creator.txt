@@ -1,0 +1,39 @@
+Módulo 2: Bot Creator
+2.1 Visão Geral do Bot Creator
+Objetivo: Entender a função do Bot Creator e como utilizá-lo para desenvolver bots.
+
+Conteúdo:
+
+Função do Bot Creator: Ferramenta usada para criar e editar bots com uma interface de arrastar e soltar comandos.
+Principais Funcionalidades:
+Command Library: Biblioteca de comandos para criar bots.
+Variables: Gerenciamento de variáveis para armazenar dados dinâmicos.
+Debugging Tools: Ferramentas para testar e depurar bots.
+Atividade Prática:
+
+Criar um Bot Simples:
+Abra o Bot Creator.
+Clique em New.
+Nomeie o bot e clique em Create.
+2.2 Desenvolvendo um Bot com o Bot Creator
+Objetivo: Criar um bot básico que executa uma tarefa simples, como abrir um navegador e navegar até um site.
+
+Passos Práticos:
+
+Adicionar Comandos:
+
+No Bot Creator, arraste o comando Open Browser para a área de trabalho.
+Configure a URL para https://www.exemplo.com.
+Adicione outros comandos conforme necessário (ex.: Click, Type Text).
+Salvar e Testar o Bot:
+
+Salve o bot.
+Clique em Run para testar a execução.
+Use as ferramentas de depuração para ajustar o bot se necessário.
+2.3 Melhores Práticas de Desenvolvimento
+Dicas:
+
+Modularização: Divida tarefas complexas em sub-bots menores e reutilizáveis.
+Uso de Variáveis: Utilize variáveis para gerenciar dados dinamicamente.
+Tratamento de Erros: Implemente comandos Try/Catch para capturar exceções e garantir a robustez do bot.
+Comentários: Adicione comentários para facilitar a compreensão e manutenção.

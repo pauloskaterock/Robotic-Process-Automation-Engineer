@@ -1,0 +1,28 @@
+Módulo 3: Bot Runner
+3.1 Visão Geral do Bot Runner
+Objetivo: Entender a função do Bot Runner e como utilizá-lo para executar bots.
+
+Conteúdo:
+
+Função do Bot Runner: Ferramenta usada para executar bots desenvolvidos. Pode ser instalado em máquinas físicas ou virtuais.
+Principais Funcionalidades:
+Executar bots agendados ou sob demanda.
+Reportar status de execução ao Control Room.
+Atividade Prática:
+
+Instalar o Bot Runner:
+Baixe e instale o Bot Runner na máquina de destino.
+Conecte o Bot Runner ao Control Room usando as credenciais apropriadas.
+3.2 Executando Bots com o Bot Runner
+Objetivo: Executar bots utilizando o Bot Runner e monitorar sua execução no Control Room.
+
+Passos Práticos:
+
+Executar um Bot:
+
+No Bot Runner, localize o bot implantado.
+Clique em Run para iniciar a execução.
+Monitorar a Execução:
+
+No Control Room, vá até a aba Activity para monitorar o progresso e o status do bot.
+Verifique os logs para analisar a performance e possíveis erros.
