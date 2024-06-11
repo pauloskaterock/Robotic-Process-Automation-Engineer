@@ -1,1 +1,6 @@
 https://docs.automationanywhere.com/pt-BR/
+
+
+
+bot agent documentation
+https://docs.automationanywhere.com/pt-BR/bundle/enterprise-v2019/page/enterprise-cloud/topics/control-room/devices/cloud-add-local-device.html

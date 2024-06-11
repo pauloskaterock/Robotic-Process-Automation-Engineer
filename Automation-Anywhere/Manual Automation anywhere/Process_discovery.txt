@@ -1,0 +1,72 @@
+Process Discovery no Automation Anywhere: Explicação Completa com Exemplos Práticos
+O Process Discovery no Automation Anywhere é uma ferramenta que permite identificar, mapear e analisar processos de negócios para automatização. Ele utiliza tecnologia de captura de dados e análise para oferecer insights sobre como os processos funcionam e onde há oportunidades de melhoria e automação.
+
+O Que é Process Discovery?
+Process Discovery é o uso de ferramentas e técnicas para observar e documentar como os processos de negócios realmente operam. Diferente da abordagem tradicional de entrevistas e workshops, o Process Discovery no Automation Anywhere captura automaticamente os dados das atividades dos usuários e os analisa para mapear os fluxos de trabalho de forma precisa e detalhada.
+
+Funcionalidades do Process Discovery no Automation Anywhere
+Captura de Dados:
+
+Monitora as atividades dos usuários em suas estações de trabalho para entender as interações com as aplicações e os fluxos de trabalho.
+Utiliza agentes de captura para registrar cliques, entradas de teclado, e outras ações.
+Análise e Mapeamento:
+
+Análise automática dos dados capturados para identificar padrões e variáveis nos processos.
+Criação de mapas de processos visuais que destacam cada etapa e decisão tomada.
+Identificação de Oportunidades:
+
+Identifica áreas de ineficiência, redundância e erros.
+Sugere áreas que são boas candidatas para automação.
+Geração de Documentação:
+
+Cria documentação detalhada dos processos, incluindo mapas de processos, estatísticas de desempenho, e pontos de decisão.
+Exemplos Práticos
+Exemplo 1: Processamento de Faturas
+Captura de Dados:
+
+Instalar agentes de captura nas máquinas dos funcionários que processam faturas.
+Monitorar as atividades diárias, incluindo a entrada de dados em sistemas ERP, validação de faturas e emissão de pagamentos.
+Análise e Mapeamento:
+
+O Process Discovery analisa as sequências de ações e identifica que o processo de validação de faturas tem várias etapas redundantes.
+Cria um mapa visual do fluxo de trabalho, mostrando todas as etapas desde o recebimento da fatura até o pagamento.
+Identificação de Oportunidades:
+
+A análise revela que a validação de faturas é repetitiva e sujeita a erros humanos.
+Sugere a automação dessa etapa específica para reduzir erros e aumentar a eficiência.
+Geração de Documentação:
+
+Gera um documento de processo detalhado que pode ser utilizado pela equipe de RPA para desenvolver um bot que automatiza a validação de faturas.
+Exemplo 2: Atendimento ao Cliente
+Captura de Dados:
+
+Monitorar as interações dos agentes de atendimento ao cliente, registrando como eles acessam informações, respondem a consultas e atualizam registros.
+Análise e Mapeamento:
+
+O Process Discovery identifica que muitos agentes seguem diferentes fluxos de trabalho para resolver problemas semelhantes.
+Mapeia todos os fluxos de trabalho, identificando variações e pontos de decisão.
+Identificação de Oportunidades:
+
+A análise mostra que a unificação dos fluxos de trabalho pode reduzir o tempo de resolução e melhorar a consistência do atendimento.
+Sugere a criação de scripts padronizados e automação de tarefas repetitivas como a atualização de registros.
+Geração de Documentação:
+
+Produz documentação que inclui scripts recomendados e mapas de processos padronizados, facilitando a criação de bots que assistem os agentes em suas tarefas diárias.
+Benefícios do Process Discovery
+Precisão e Eficiência:
+
+Elimina a necessidade de entrevistas e workshops extensivos, proporcionando uma visão precisa de como os processos realmente ocorrem.
+Transparência:
+
+Oferece uma visão clara e visual dos processos, facilitando a identificação de gargalos e áreas de melhoria.
+Oportunidades de Automação:
+
+Identifica rapidamente as melhores oportunidades para automação, ajudando a priorizar projetos que trarão o maior retorno sobre o investimento.
+Documentação Automatizada:
+
+Gera documentação detalhada e padronizada dos processos, facilitando o desenvolvimento e a manutenção de bots.
+Recursos Adicionais
+Para mais informações detalhadas e tutoriais, você pode acessar os seguintes recursos:
+
+Automation Anywhere University - Oferece cursos e treinamentos detalhados sobre Process Discovery.
+Documentação do Automation Anywhere - Guia detalhado sobre a utilização de Process Discovery e outras funcionalidades da plataforma.
