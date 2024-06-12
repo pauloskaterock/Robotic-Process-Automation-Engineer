@@ -1,0 +1,59 @@
+Os atalhos no Automation Anywhere são ferramentas úteis que ajudam a aumentar a produtividade e a eficiência ao trabalhar com a plataforma. Aqui está uma lista dos principais atalhos e suas explicações detalhadas:
+
+Atalhos no Automation Anywhere
+1. Control Room Atalhos
+Ctrl + N: Cria um novo bot.
+Ctrl + S: Salva o bot atual.
+Ctrl + O: Abre um bot existente.
+Ctrl + F: Abre a função de pesquisa para encontrar comandos dentro do bot.
+Ctrl + Z: Desfaz a última ação.
+Ctrl + Y: Refaz a última ação desfeita.
+Ctrl + P: Pré-visualiza o bot.
+Ctrl + D: Exclui o comando selecionado.
+Ctrl + X: Recorta o comando selecionado.
+Ctrl + C: Copia o comando selecionado.
+Ctrl + V: Cola o comando copiado ou recortado.
+2. Bot Creator Atalhos
+Ctrl + Shift + C: Abre o Web Recorder.
+Ctrl + Shift + I: Abre o Image Recognition Recorder.
+Ctrl + Shift + R: Abre o Record Mouse Clicks.
+Ctrl + Shift + S: Abre o Screen Recorder.
+F5: Atualiza o Bot Creator.
+3. Navegação Geral
+Alt + 1: Navega para o Dashboard.
+Alt + 2: Navega para a seção de Bots.
+Alt + 3: Navega para a seção de Devices.
+Alt + 4: Navega para a seção de Workload.
+Alt + 5: Navega para a seção de Insights.
+Alt + 6: Navega para a seção de Auditoria.
+Exemplos Práticos
+Criar e Salvar um Novo Bot
+Criar Novo Bot:
+
+Pressione Ctrl + N para abrir a janela de criação de um novo bot.
+Insira o nome do bot e outras configurações necessárias.
+Salvar o Bot:
+
+Pressione Ctrl + S frequentemente para garantir que todas as alterações sejam salvas.
+Navegação Rápida
+Alternar para a Seção de Bots:
+
+Pressione Alt + 2 para navegar rapidamente para a seção onde todos os bots são listados.
+Atualizar a Visualização:
+
+Pressione F5 enquanto estiver no Bot Creator para atualizar a visualização, garantindo que todas as alterações mais recentes sejam refletidas.
+Melhores Práticas
+Uso Frequente dos Atalhos: Familiarize-se com os atalhos mais comuns para aumentar sua eficiência ao criar e modificar bots.
+Salvamento Regular: Use Ctrl + S regularmente para evitar perda de dados.
+Pesquisa e Navegação: Utilize Ctrl + F para encontrar rapidamente comandos dentro de bots complexos e Alt + [número] para navegar entre diferentes seções da Control Room.
+Recursos Adicionais
+Para mais detalhes sobre os atalhos e outras funcionalidades avançadas, consulte a documentação oficial e os recursos educacionais fornecidos pela Automation Anywhere:
+
+Documentação Oficial do Automation Anywhere
+Automation Anywhere University
+Estes recursos oferecem tutoriais detalhados, cursos e fóruns de discussão para aprimorar ainda mais suas habilidades na plataforma.
+
+
+
+
+

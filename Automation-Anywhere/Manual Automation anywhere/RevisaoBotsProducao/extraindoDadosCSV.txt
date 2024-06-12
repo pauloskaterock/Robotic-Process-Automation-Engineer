@@ -1,0 +1,77 @@
+Para extrair dados de uma tabela web e salvá-los em um arquivo CSV usando o Automation Anywhere, você pode seguir os passos abaixo:
+
+Passo a Passo: Extração de Dados de Tabela Web para CSV no Automation Anywhere
+Pré-requisitos
+Automation Anywhere instalado: Certifique-se de que você tenha o Automation Anywhere instalado e configurado.
+Acesso à Control Room: Certifique-se de ter acesso ao Control Room para criar e gerenciar bots.
+
+Passo 1: Criar um Novo Bot
+Login no Control Room: Faça login na Control Room do Automation Anywhere.
+Criar Bot: Navegue até a seção de Bots e clique em Create a Bot.
+
+Passo 2: Navegar para o Site e Capturar Dados
+Abertura do Navegador:
+
+Arraste a ação Open Browser para o painel de ações.
+Configure a URL do site que contém a tabela.
+Navegação para a Tabela:
+
+Use ações como Wait para garantir que a página carregue completamente.
+Navegue até o ponto da página onde a tabela está localizada (se necessário).
+
+Passo 3: Extração de Dados da Tabela
+Ação de Captura de Dados:
+
+Utilize a ação Web Recorder > Capture Data.
+Selecione a tabela na página web. Certifique-se de capturar todas as linhas e colunas relevantes.
+Armazenamento de Dados:
+
+Armazene os dados capturados em uma Data Table para fácil manipulação posterior.
+Configure a Data Table para adicionar todas as linhas e colunas necessárias.
+
+Passo 4: Salvar Dados em CSV
+Criar Arquivo CSV:
+Utilize a ação Loop para iterar sobre as linhas da Data Table.
+Dentro do loop, use a ação Write to File para escrever os dados em um arquivo CSV.
+Configure o caminho do arquivo CSV e certifique-se de que os dados são escritos no formato correto (usualmente separado por vírgulas).
+
+Passo 5: Fechar o Navegador
+Encerrar Sessão do Navegador:
+Utilize a ação Close Browser para fechar o navegador após a extração e salvamento dos dados.
+
+Exemplo Prático
+Cenário: Extração de Tabela de Cotações de Ações
+Abertura do Navegador:
+
+
+Open Browser
+URL: http://exemplo.com/cotacoes
+Esperar Carregamento:
+
+Wait
+Duration: 5000ms (ou até que o elemento da tabela esteja presente)
+Captura de Dados:
+
+
+Web Recorder -> Capture Data
+Elemento: Tabela de cotações
+Armazenar em: dataTable1
+Salvar em CSV:
+
+
+Create File
+Path: C:\Users\Usuario\Documents\cotacoes.csv
+Overwrite: Yes
+
+Loop Through dataTable1
+Write to File
+Path: C:\Users\Usuario\Documents\cotacoes.csv
+Data: Coluna1, Coluna2, Coluna3 (etc.)
+Fechar Navegador:
+
+
+Close Browser
+Conclusão
+Ao seguir este guia, você poderá configurar um bot no Automation Anywhere para navegar até um site, capturar dados de uma tabela e salvar esses dados em um arquivo CSV. Isso é útil para automação de tarefas repetitivas, economizando tempo e minimizando erros manuais.
+
+Para mais detalhes e exemplos práticos, você pode consultar a documentação oficial do Automation Anywhere e os tutoriais disponíveis na Automation Anywhere University.
