@@ -1,0 +1,109 @@
+
+Módulo 1: Introdução à Control Room do Automation Anywhere 360
+Objetivo:
+Familiarizar-se com a interface e as funcionalidades básicas da Control Room.
+
+Conteúdo:
+Visão Geral da Control Room:
+
+Interface do usuário.
+Componentes principais: Dashboard, Activity, Bots, Devices, Workload.
+Navegação Básica:
+
+Como acessar diferentes seções.
+Configurações básicas e personalização.
+Exercício Prático:
+Tarefa: Navegar por todas as seções da Control Room e personalizar o dashboard inicial.
+Módulo 2: Configuração Inicial para Monitoramento
+Objetivo:
+Aprender a configurar a Control Room para monitorar atividades de automação.
+
+Conteúdo:
+Configuração de Usuários e Papéis:
+
+Criação e gerenciamento de usuários.
+Atribuição de papéis e permissões.
+Configuração de Dispositivos:
+
+Adição e gerenciamento de Bot Runners.
+Configuração de dispositivos e perfis de execução.
+Exercício Prático:
+Tarefa: Configurar um novo usuário com permissões específicas e adicionar um Bot Runner à Control Room.
+Módulo 3: Monitoramento de Bots em Tempo Real
+Objetivo:
+Aprender a monitorar a execução de bots em tempo real.
+
+Conteúdo:
+Uso do Dashboard:
+
+Visão geral das atividades de bots.
+Monitoramento de status e desempenho.
+Seção Activity:
+
+Visualização de atividades em andamento.
+Monitoramento de agendamentos e execuções.
+Exercício Prático:
+Tarefa: Monitorar um bot em execução e analisar seu status no dashboard e na seção Activity.
+Módulo 4: Análise de Logs e Auditoria
+Objetivo:
+Entender como acessar e analisar logs de execução e auditoria.
+
+Conteúdo:
+Logs de Execução:
+
+Acesso e leitura dos logs de execução de bots.
+Identificação de erros e problemas recorrentes.
+Logs de Auditoria:
+
+Acesso e análise dos logs de auditoria.
+Rastreamento de ações de usuários e alterações no sistema.
+Exercício Prático:
+Tarefa: Analisar os logs de execução de um bot que falhou e identificar a causa do erro.
+Módulo 5: Configuração de Alertas e Notificações
+Objetivo:
+Aprender a configurar alertas e notificações para monitoramento proativo.
+
+Conteúdo:
+Criação de Alertas:
+
+Configuração de alertas para eventos críticos.
+Definição de critérios e condições para alertas.
+Notificações:
+
+Configuração de notificações por e-mail e SMS.
+Monitoramento e resposta a alertas em tempo real.
+Exercício Prático:
+Tarefa: Configurar um alerta para falhas de execução de bots e configurar uma notificação por e-mail.
+Módulo 6: Relatórios e Análise Avançada
+Objetivo:
+Utilizar ferramentas de análise e relatórios para insights detalhados sobre atividades de automação.
+
+Conteúdo:
+Uso do Bot Insight:
+
+Criação de dashboards personalizados.
+Análise de dados de execução e desempenho de bots.
+Geração de Relatórios:
+
+Configuração e exportação de relatórios detalhados.
+Uso de relatórios para otimização de processos.
+Exercício Prático:
+Tarefa: Criar um dashboard no Bot Insight para monitorar a eficiência dos bots e gerar um relatório semanal de desempenho.
+Recursos Adicionais e Conclusão
+Recursos Online:
+Documentação Oficial do Automation Anywhere 360: Link
+Automation Anywhere University: Link
+Comunidade Automation Anywhere: Link
+Conclusão:
+Resumo dos Principais Aprendizados:
+
+Como configurar e navegar pela Control Room.
+Monitoramento de bots em tempo real e análise de logs.
+Configuração de alertas e notificações.
+Geração de relatórios e uso do Bot Insight para análise avançada.
+Próximos Passos:
+
+Praticar continuamente as habilidades aprendidas.
+Participar de fóruns e comunidades para troca de conhecimento.
+Explorar cursos avançados na Automation Anywhere University para aprofundar conhecimentos.
+Este curso completo fornece uma base sólida para monitorar e gerenciar atividades de automação usando a Control Room do Automation Anywhere 360, garantindo que você possa maximizar a eficiência e eficácia de suas operações de RPA.
