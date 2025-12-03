@@ -1,0 +1,42 @@
+Categoria 1: 🖥️ Automação de Desktop (pyautogui)
+
+#Título do ProjetoBibliotecasObjetivo de RPA
+
+
+
+2"Semaforo" de Mousepyautogui, timeCriar um script que move o mouse entre três posições da tela em um ciclo contínuo, com um pequeno atraso (time.sleep) entre cada movimento, simulando a observação de diferentes áreas.
+
+
+3Preenchedor Simples de Formulário LocalpyautoguiSimular a digitação de informações em um editor de texto ou em um formulário básico (como um arquivo notepad aberto). O robô deve digitar nome, sobrenome e pular linhas.
+
+
+
+
+Categoria 2: 🌐 Automação Web e Web Scraping (Selenium)
+
+#	Título do Projeto	Bibliotecas	Objetivo de RPA
+
+4	Pesquisa Automatizada no Google	Selenium	Abrir o navegador (Chrome/Firefox), navegar até o Google, digitar uma frase de pesquisa específica e clicar no botão "Pesquisar".
+
+5	Monitor de Preço Simples	Selenium, time	Acessar a página de um produto em um site de e-commerce e extrair o preço do produto. Se for mais avançado, salvar o preço em um arquivo .txt.
+
+6	Coletor de Notícias (Web Scraping Básico)	Selenium ou requests/BeautifulSoup	Acessar a página inicial de um portal de notícias e coletar os títulos das 5 principais manchetes. Demonstra a extração de elementos HTML específicos.
+
+
+
+
+Parceiro de Programacao
+Ótima ideia! Criar projetos práticos é a melhor maneira de consolidar seu aprendizado e construir um portfólio robusto de RPA.
+
+Aqui estão 10 projetos básicos de RPA com Python que cobrem as principais bibliotecas e cenários de automação, perfeitos para quem está começando:
+
+
+Categoria 3: 📊 Manipulação de Dados e Arquivos (pandas, openpyxl, PyPDF2)
+
+#	Título do Projeto	Bibliotecas	Objetivo de RPA
+
+7	Filtro de Planilha Excel	pandas	Criar um pequeno arquivo .xlsx (ou usar um existente). O robô deve lê-lo, filtrar as linhas que atendem a uma condição (ex: Valor > 100) e salvar os resultados em um novo arquivo Excel.
+
+8	Extrator de Texto de PDF	PyPDF2 ou pdfplumber	Usar um arquivo PDF simples. O robô deve ler o PDF, extrair todo o texto e salvar esse texto em um arquivo .txt separado.
+
+9	Conversor de CSV para JSON	pandas	Criar um arquivo CSV simples. O robô deve lê-lo e convertê-lo para o formato JSON, demonstrando a versatilidade de formatação de dados.
